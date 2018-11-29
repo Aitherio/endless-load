@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Endless Load",
+    "description": "Endless progress loader.",
+    "slug": "endlessLoad",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#ffffff",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.cacuwo.endlessLoad"
+    },
+    "android": {
+      "package": "com.cacuwo.endlessLoad",
+      "versionCode": 1.0
+    }
+  }
+}
